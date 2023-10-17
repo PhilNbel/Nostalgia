@@ -1,0 +1,33 @@
+
+		l.add(new Pers(40.0, 20.0));
+
+		ground(32*0,32*-3,51);
+		adHB(32*0,32*3,51);
+		Diagonal d = new Diagonal(0, 20, 80, 20);
+		Piege t = new Piege(0, -3*32, d, IdObj.Piege);
+		for (int i = 16; i<=32*50; i += 16) {
+			t.addPiege(new Pique(i, (32*-2)-16, 0, true, 0L, IdObj.Pique));
+		}
+		l.add(t);
+		ground(0,32*2,5);
+		l.add(new Bouncer(32*6, 32*2));
+		l.add(new Bouncer(32*7, 32*2));
+		l.add(new Bouncer(32*8, 32*2));
+		l.add(new Bouncer(32*9, 32*2));
+		l.add(new Bouncer(32*10, 32*2));
+		ground(32*11,32*2,10);
+		l.add(new Bouncer(32*21, 32*2));
+		l.add(new Bouncer(32*22, 32*2));
+		l.add(new Bouncer(32*23, 32*2));
+		l.add(new Bouncer(32*24, 32*2));
+		l.add(new Bouncer(32*25, 32*2));
+		ground(32*26,32*2,10);
+		l.add(new Bouncer(32*36, 32*2));
+		l.add(new Bouncer(32*37, 32*2));
+		l.add(new Bouncer(32*38, 32*2));
+		l.add(new Bouncer(32*39, 32*2));
+		l.add(new Bouncer(32*40, 32*2));
+		ground(32*41,32*2,10);
+
+		l.add(new Portal(32*50,32*1,40,20,true));
+	}

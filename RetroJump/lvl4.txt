@@ -1,0 +1,5 @@
+Pers(40.0, 20.0)
+Diagonal(0, 500, 700, 0)
+Diagonal(700, 0, 750, 0)
+Diagonal(750, 0, 1450, 500)
+Portal(1650,500,40,20,true)

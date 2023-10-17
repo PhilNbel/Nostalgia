@@ -1,0 +1,4 @@
+l.add(new Pers(40.0,20.0));
+ground(0,300,10);
+adHB(0,332,10);
+l.add(new Portal(50,100,40,20,true));

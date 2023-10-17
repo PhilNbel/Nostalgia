@@ -1,0 +1,3 @@
+l.add(new Pers(40.0, 20.0));
+l.add(new WorldInFire(5));
+ground(32*0,32*10,25);

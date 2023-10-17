@@ -1,0 +1,7 @@
+Pers(40.0, 20.0)
+adHB(0, 500, 20)
+adVB(32*8, 500-32*5, 5)
+Laser(3000, 350, -10, 0, true, 0L, IdObj.Laser)
+Laser(3000, 300, -10, 0, true, 0L, IdObj.Laser)
+Laser(-2800, 300, 10, 0, true, 5L, IdObj.Laser)
+Portal(21*32,500,40,20,true)

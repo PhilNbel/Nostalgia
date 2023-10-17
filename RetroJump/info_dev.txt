@@ -1,0 +1,49 @@
+=============================INFO DEV===================================
+Dans toutes les explications qui vont suivre on considère notre point de repere
+comme étant le haut gauche de notre écran 
+
+
+Les Objets:
+	
+	Chaque objets est représenté par une classe
+	On peut très bien former un objet a partir de plusieurs objets existants
+	Simplement en les superposants par exemple
+
+
+Les Class d'objets:
+
+	Nous fournirons les infos physique de l'objet: width, height et vecteur
+
+La Class Vecteur:
+	
+	Contiendra l'orientation de l'objet par rapport a notre repere
+	la longeur du vecteur 
+	Ainsi que la vitesse
+
+
+Les Collision dans notre Jeu:
+
+	Il faudra créer des fonctions pour chaque Collisions entre notre personnage 
+	et les objets que nous allons créer
+	
+	La collision empeche le Personnage de rentrer dans l'objet toujours à partir
+	du même point de repère
+
+Le personnage:
+
+	Composé de 5 points a,b,c,d,m étant respectivement, la tete , le bras droit,
+	Les pieds, le bras gauche ainsi que le centre de notre personnage
+	Ainsi que d'un largeur et d'une hauteur
+
+La Map:
+	
+	On considere que chaque case du mode a pour lageur minimum, la largeur
+	de notre personnage
+	ou la largeur + [1, 50] (à ajuster)
+	
+	Le fond de Map(background) bougera plus lentement que notre map
+	afin de donner une impression de profondeur  	 
+
+
+
+=============================THE END===================================

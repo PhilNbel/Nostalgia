@@ -1,0 +1,3 @@
+l.add(new Pers(40.0, 20.0));
+fground(0,32*2,50);
+l.add(new Portal(32*50,32*1,40,20,true));
